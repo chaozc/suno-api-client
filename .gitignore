@@ -1,0 +1,9 @@
+node_modules/
+.env
+.captcha-token
+.captcha-cmd
+captcha-challenge.png
+captcha-after-click.png
+captcha-result.png
+output/
+*.log

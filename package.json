@@ -1,0 +1,35 @@
+{
+  "name": "suno-api-client",
+  "version": "1.0.0",
+  "description": "Unofficial Suno AI API client — authenticate, generate music, solve captcha, and download tracks programmatically.",
+  "main": "src/index.js",
+  "bin": {
+    "suno-generate": "bin/generate.js",
+    "suno-captcha": "bin/captcha.js"
+  },
+  "scripts": {
+    "generate": "node bin/generate.js",
+    "captcha": "node bin/captcha.js"
+  },
+  "keywords": [
+    "suno",
+    "suno-ai",
+    "music-generation",
+    "ai-music",
+    "hcaptcha",
+    "automation"
+  ],
+  "author": "Zichen Chao",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chaozc/suno-api-client"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "rebrowser-playwright-core": "^1.49.1"
+  },
+  "optionalDependencies": {}
+}
